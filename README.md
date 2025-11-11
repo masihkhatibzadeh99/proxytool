@@ -1,2 +1,11 @@
-# proxytool
-Proxytool is a lightweight Python CLI. It parses a ProxySQL configuration file and runs a suite of structural and semantic validations before you rollout the changes into production.
+# ProxyTool
+
+`proxytool` is a lightweight Python CLI. It parses a ProxySQL configuration file and runs a suite of structural and semantic validations before you rollout the changes into production.
+
+## Quick Start
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -e .
+proxytool check path/to/proxysql.cnf
+```
